@@ -1,0 +1,23 @@
+# Normaliza finales de línea a LF en el repo, independientemente del sistema operativo.
+* text=auto eol=lf
+
+# Binarios: no aplicar conversión.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.xlsx binary
+*.xls binary
+*.docx binary
+*.doc binary
+*.zip binary
+*.tar.gz binary
+*.woff binary
+*.woff2 binary
+
+# Archivos específicos de Windows que sí deben conservar CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
