@@ -1,0 +1,11 @@
+# Supabase
+.branches
+.temp
+
+# dotenvx
+.env.keys
+.env.local
+.env.*.local
+
+# Snippets generados por la extensión de Supabase para VS Code (consultas locales)
+snippets/
